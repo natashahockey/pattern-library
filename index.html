@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Pattern Library</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
 </head>
 <body>
-   <aside>
-       <img src="">
+    <div class="row">
+   <aside class="large-3 columns">
+       <img src="images/logo.svg" alt="logo">
        <input type="search"/>
        <nav>
            <ul>
@@ -30,26 +32,31 @@
            </ul>
        </nav>
     </aside>
-    <main>
-        <h1>Introduction</h1>
-        <p>The purpose of this pattern library is to showcase and display the components used in a portfolio website. These components have been browser tested and performance checked in order to make the code base as high quality as possible.</p> 
+    <main class="large-9 columns main-wrapper">
+        <div class="margin-2">
+            <h1>Introduction</h1>
+            <p>The purpose of this pattern library is to showcase and display the components used in a portfolio website. These components have been browser tested and performance checked in order to make the code base as high quality as possible.</p> 
 
-        <p>Documentation has also been provided for each component so that its usage and description is known by all developers involved in the project. A single component view has been created so that developers can create a shareable URL to specific components.</p>
+            <p>Documentation has also been provided for each component so that its usage and description is known by all developers involved in the project. A single component view has been created so that developers can create a shareable URL to specific components.</p>
+        </div>
         <div>
-            <h2>Goals</h2>
-            <div>
-                <img src="images/Atomic.svg" href="atomic design"/>
-                <p>Atomic design principles have been followed during the design and build of this product. This will make it easier to build upon the code base and design new pages. </p>
-            </div>
-            <div>
-                <img src="images/Documentation.svg" href="documentation"/>
-                <p>Thorough documentation has been provided for each component so that its usage is clear and concise. </p>
-            </div>
-            <div>
-                <img src="images/Responsive%20Design.svg" href="responsive"/>
-                <p>The pattern library has responsive capablilites meaning that components can be viewed on different devices.</p>
+            <h2 class="margin-2">Goals</h2>
+            <div class="row">
+                <div class="large-4 columns">
+                    <img class="float-center margin-2" src="images/Atomic.svg" alt="atomic design"/>
+                    <p>Atomic design principles have been followed during the design and build of this product. This will make it easier to build upon the code base and design new pages. </p>
+                </div>
+                <div class="large-4 columns">
+                    <img class="float-center margin-2" src="images/Documentation.svg" alt="documentation"/>
+                    <p>Thorough documentation has been provided for each component so that its usage is clear and concise. </p>
+                </div>
+                <div class="large-4 columns">
+                    <img class="float-center margin-2" src="images/Responsive%20Design.svg" alt="responsive"/>
+                    <p>The pattern library has responsive capablilites meaning that components can be viewed on different devices.</p>
+                </div>
             </div>
         </div>
-    </main>    
+    </main>
+    </div>    
 </body>
 </html>
