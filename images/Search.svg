@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sidebar" transform="translate(-32.000000, -179.000000)" fill="#828282">
+            <g id="Dropdown">
+                <g transform="translate(0.000000, 160.000000)">
+                    <g id="01-edition-search" transform="translate(32.000000, 19.000000)">
+                        <path d="M6,1.33333333 C8.57266667,1.33333333 10.6666667,3.426 10.6666667,6 C10.6666667,8.57266667 8.57266667,10.6666667 6,10.6666667 C3.426,10.6666667 1.33333333,8.57266667 1.33333333,6 C1.33333333,3.426 3.426,1.33333333 6,1.33333333 M6,12 C7.42066667,12 8.72666667,11.5 9.75533333,10.672 L14.8606667,15.8033333 C15.12,16.0653333 15.542,16.0666667 15.8033333,15.806 C16.0653333,15.5453333 16.0653333,15.124 15.806,14.8633333 L10.694,9.72533333 C11.5093333,8.702 12,7.40733333 12,6 C12,2.69133333 9.30866667,0 6,0 C2.69133333,0 0,2.69133333 0,6 C0,9.30866667 2.69133333,12 6,12" id="Fill-1"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
