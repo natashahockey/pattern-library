@@ -34,6 +34,7 @@
     display: block;
     border-bottom: 1px solid $grey;
     color: $type;
+    position: relative;
 }
 
 .main-sidebar .sub-menu {
@@ -50,4 +51,13 @@
 
 .desktop-menu>ul>li>a {
     font-weight: 600;
+}
+
+.main-sidebar .down-arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border-left: 1px solid $grey;
+    padding: 24px 16px;
 }

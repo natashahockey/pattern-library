@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="9px" viewBox="0 0 14 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Down Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dropdown" transform="translate(-320.000000, -22.000000)" fill="#535353">
+            <g id="Down-Arrow">
+                <g transform="translate(320.000000, 22.000000)">
+                    <g id="Shape">
+                        <polygon points="1.65083333 0.25 7 5.70833333 12.3491667 0.25 14 1.93452381 7 9.07738095 0 1.93452381"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
