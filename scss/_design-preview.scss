@@ -1,0 +1,20 @@
+.design-preview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.design-preview {
+    border: 1px solid $grey;
+    padding: 40px 24px;
+}
+
+.design-preview-navigation img {
+    width: 200px;
+}
+
+.design-preview-navigation a {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $purple;
+}
