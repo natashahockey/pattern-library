@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pattern Library | Buttons</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+</head>
+<body>
+   
+    <div class="row">
+      
+       <aside class="large-3 columns main-sidebar">
+          
+           <img class="logo" src="images/logo.svg" alt="logo">
+           <input class="search" type="search" placeholder="Search..."/>
+           
+           <nav class="desktop-menu">
+               <ul>
+                   <li><a href="navigation.html">Navigation</a></li>
+                   <li>
+                      <a href="buttons.html">Buttons<img class="down-arrow open" src="images/Up-arrow.svg" alt="down arrow"></a>
+                      <ul class="sub-menu">
+                          <li><a href="buttons.html#default">Default Button</a></li>
+                          <li><a href="buttons.html#ghost">Ghost Button</a></li>
+                          <li><a href="buttons.html#icon">Icon Button</a></li>
+                          <li><a href="buttons.html#dropdown">Dropdown Button</a></li>
+                          <li><a href="buttons.html#group">Button Group</a></li>
+                          <li><a href="buttons.html#small">Small Button</a></li>
+                      </ul> 
+                   </li>
+                   <li><a href="">Carousel Header</a></li>
+                   <li><a href="">Jumbotron</a></li>
+                   <li><a href="">Footer</a></li>
+                   <li><a href="">Breadcrumb</a></li>
+                   <li><a href="">Pagination</a></li>
+               </ul>
+           </nav>
+           
+        </aside>
+        
+        <main class="offset-3 large-9 columns main-wrapper">
+            
+            <div class="margin-3" id="default">
+                
+                <div class="margin-2">
+                    <h1 class="margin-2">Buttons</h1>
+                    <h2 class="margin-1 link"><img src="images/link.svg" alt="link">Default Button</h2>
+                    <p>The default button should be used for basic call to actions within the website. The colour of this button can be changed in the CSS. </p> 
+                </div>
+                
+                <div class="design-preview design-preview-button">
+                    <a href="#" class="button">Large button</a>
+                </div>
+                
+                <div class="code-snippet">
+                    <div class="row">
+                        <div class="large-6 columns code-html">
+                            <h3>HTML</h3>
+                            <pre>
+    &lt;div class=&quot;design-preview design-preview-button&quot;&gt;
+        &lt;a href=&quot;#&quot; class=&quot;button&quot;&gt;Large button&lt;/a&gt;
+    &lt;/div&gt;
+                            </pre>
+                        </div>
+                        <div class="large-6 columns code-css">
+                            <h3>CSS</h3>
+                            <pre>
+    .button {
+        border-radius: 6px;
+        background-color: $purple;
+        color: white;
+        font-weight: 700;
+        padding: 16px 32px;
+        border: 2px solid transparent;
+    }
+
+    .button:hover {
+        background-color: white;
+        border: 2px solid $purple;
+        color: $purple;
+    }
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="margin-3" id="ghost">
+                
+                <div class="margin-2">
+                    <h2 class="margin-1 link"><img src="images/link.svg" alt="link">Ghost Button</h2>
+                    <p>This can be used alongside or separately to the default button. It is recommended to use the ghost button in a group with the default in a hero section.</p> 
+                </div>
+                
+                <div class="design-preview design-preview-button">
+                    <a href="#" class="hollow button">Large button</a>
+                </div>
+                
+                <div class="code-snippet">
+                    <div class="row">
+                        <div class="large-6 columns code-html">
+                            <h3>HTML</h3>
+                            <pre>
+    &lt;div class=&quot;design-preview design-preview-button&quot;&gt;
+        &lt;a href=&quot;#&quot; class=&quot;hollow button&quot;&gt;Large button&lt;/a&gt;
+    &lt;/div&gt;
+                            </pre>
+                        </div>
+                        <div class="large-6 columns code-css">
+                            <h3>CSS</h3>
+                            <pre>
+    .button.hollow {
+        border-radius: 6px;
+        background-color: white;
+        color: $purple;
+        font-weight: 700;
+        padding: 16px 32px;
+        border-color: $purple;
+    }
+
+    .button.hollow:hover {
+        background-color: $purple;
+        color: white;
+        border-width: 1px;
+    }
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="margin-3" id="icon">
+                
+                <div class="margin-2">
+                    <h2 class="margin-1 link"><img src="images/link.svg" alt="link">Icon Button</h2>
+                    <p>This can be used alongside or separately to the default button. It is recommended to use the ghost button in a group with the default in a hero section.</p> 
+                </div>
+                
+                <div class="design-preview design-preview-button">
+                    <a href="#" class="icon button">Large button<img src="images/Right-arrow.svg" alt="right arrow"/></a>
+                </div>
+                
+                <div class="code-snippet">
+                    <div class="row">
+                        <div class="large-6 columns code-html">
+                            <h3>HTML</h3>
+                            <pre>
+&lt;div class=&quot;design-preview design-preview-button&quot;&gt;
+    &lt;a href=&quot;#&quot; class=&quot;icon button&quot;&gt;Large button&lt;img src=&quot;images/Right-arrow.svg&quot; alt=&quot;right arrow&quot;/&gt;&lt;/a&gt;
+&lt;/div&gt;
+                            </pre>
+                        </div>
+                        <div class="large-6 columns code-css">
+                            <h3>CSS</h3>
+                            <pre>
+.button.icon img {
+    margin-left: 16px;
+}
+
+.button.icon:hover {
+    background-color: $lightpurple;
+    color: white;
+    border-color: $lightpurple;
+}
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="margin-3" id="dropdown">
+                
+                <div class="margin-2">
+                    <h2 class="margin-1 link"><img src="images/link.svg" alt="link">Dropdown Button</h2>
+                    <p>Dropdown buttons should be used when the user has 1 or more options to choose from. This is accompanied with a icon to direct users.</p> 
+                </div>
+                
+                <div class="design-preview design-preview-button">
+                    <a href="#" class="dropdown button">Large button dropdown</a>
+                </div>
+                
+                <div class="code-snippet">
+                    <div class="row">
+                        <div class="large-6 columns code-html">
+                            <h3>HTML</h3>
+                            <pre>
+&lt;div class=&quot;design-preview design-preview-button&quot;&gt;
+    &lt;a href=&quot;#&quot; class=&quot;dropdown button&quot;&gt;Large button dropdown&lt;/a&gt;
+&lt;/div&gt;
+                            </pre>
+                        </div>
+                        <div class="large-6 columns code-css">
+                            <h3>CSS</h3>
+                            <pre>
+.button.dropdown {
+    border-radius: 6px;
+    background-color: $purple;
+    color: white;
+    font-weight: 700;
+    padding: 16px 32px;
+}
+
+.button.dropdown:hover {
+    background-color: $lightpurple;
+    color: white;
+    border-color: $lightpurple;
+}
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="margin-3" id="group">
+                
+                <div class="margin-2">
+                    <h2 class="margin-1 link"><img src="images/link.svg" alt="link">Button Group</h2>
+                    <p>This can be used alongside or separately to the default button. It is recommended to use the ghost button in a group with the default in a hero section.</p> 
+                </div>
+                
+                <div class="design-preview design-preview-button button-group">
+                    <a href="#" class="button">One</a>
+                    <a href="#" class="button">Two</a>
+                </div>
+                
+                <div class="code-snippet">
+                    <div class="row">
+                        <div class="large-6 columns code-html">
+                            <h3>HTML</h3>
+                            <pre>
+ &lt;div class=&quot;design-preview design-preview-button button-group&quot;&gt;
+    &lt;a href=&quot;#&quot; class=&quot;button&quot;&gt;One&lt;/a&gt;
+    &lt;a href=&quot;#&quot; class=&quot;button&quot;&gt;Two&lt;/a&gt;
+&lt;/div&gt;
+                            </pre>
+                        </div>
+                        <div class="large-6 columns code-css">
+                            <h3>CSS</h3>
+                            <pre>
+.button {
+    border-radius: 6px;
+    background-color: $purple;
+    color: white;
+    font-weight: 700;
+    padding: 16px 32px;
+    border: 2px solid transparent;
+}
+
+.button:hover {
+    background-color: white;
+    border: 2px solid $purple;
+    color: $purple;
+}
+
+.button-group {
+    margin-bottom: 0;
+}
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="margin-3" id="small">
+                
+                <div class="margin-2">
+                    <h2 class="margin-1 link"><img src="images/link.svg" alt="link">Small Button</h2>
+                    <p>This can be used alongside or separately to the default button. It is recommended to use the ghost button in a group with the default in a hero section.</p> 
+                </div>
+                
+                <div class="design-preview design-preview-button">
+                    <a href="#" class="button small">Small button</a>
+                </div>
+                
+                <div class="code-snippet">
+                    <div class="row">
+                        <div class="large-6 columns code-html">
+                            <h3>HTML</h3>
+                            <pre>
+&lt;div class=&quot;design-preview design-preview-button&quot;&gt;
+    &lt;a href=&quot;#&quot; class=&quot;button small&quot;&gt;Small button&lt;/a&gt;
+&lt;/div&gt;
+                            </pre>
+                        </div>
+                        <div class="large-6 columns code-css">
+                            <h3>CSS</h3>
+                            <pre>
+.button {
+    border-radius: 6px;
+    background-color: $purple;
+    color: white;
+    font-weight: 700;
+    padding: 16px 32px;
+    border: 2px solid transparent;
+}
+
+.button:hover {
+    background-color: white;
+    border: 2px solid $purple;
+    color: $purple;
+}
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        
+        </main>  
+        
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,5 +1,8 @@
 $('.down-arrow').on('click', function(){
     
+    //stop the link from working
+    event.preventDefault();
+    
     //this remembers what's been clicked
     //toggle the open class on and off every click
     $(this).toggleClass('open');

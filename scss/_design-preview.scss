@@ -1,9 +1,12 @@
 .design-preview {
+    border: 1px solid $grey;
+    padding: 40px 24px;
+}
+
+.design-preview-navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid $grey;
-    padding: 40px 24px;
 }
 
 .code-snippet {
