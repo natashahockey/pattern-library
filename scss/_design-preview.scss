@@ -2,11 +2,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.design-preview {
     border: 1px solid $grey;
     padding: 40px 24px;
+}
+
+.code-snippet {
+    background-color: $lightgrey;
+    border-left: 1px solid $grey;
+    border-right: 1px solid $grey;
+    border-bottom: 1px solid $grey;
+    padding: 16px;
 }
 
 .design-preview-navigation img {
@@ -18,3 +23,14 @@
     font-weight: 700;
     color: $purple;
 }
+
+.code-snippet .code-html {
+    border-right: 1px solid $grey;
+}
+
+.code-snippet .code-css {
+    border-left: 1px solid $grey;
+    position: relative;
+    left: -1px;
+}
+
