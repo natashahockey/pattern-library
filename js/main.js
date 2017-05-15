@@ -22,5 +22,11 @@ $('.down-arrow').on('click', function(){
     
     //slide the menu up or down
     $('.sub-menu').slideToggle();
+});
 
+$('.slick-slider').slick({
+    infinite: true,
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
 });
