@@ -1,0 +1,33 @@
+.single-view {
+    display: flex;
+    align-items: stretch;
+    padding: 0 16px;
+    border-bottom: 1px solid $grey;
+}
+
+.single-view img {
+    padding: 16px 0;
+    width: 118px;
+}
+
+.single-view .breadcrumb-nav {
+    flex: 1;
+    border-left: 1px solid $grey;
+    margin-left: 16px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.single-view .breadcrumbs {
+    margin: 0;
+}
+
+.single-view .cross {
+    float: right;
+    width: 16px;
+}
+
+.single-view-content {
+    margin: 24px;
+}
