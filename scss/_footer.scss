@@ -1,0 +1,19 @@
+.design-preview-footer {
+    background-image: linear-gradient(133deg, #480048 0%, #C04848 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.design-preview-footer li {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.design-preview-footer img {
+    margin-right: 16px;
+}
