@@ -24,7 +24,7 @@ $('.down-arrow').on('click', function(){
     $('.sub-menu').slideToggle();
 });
 
-if ( $('.slick-slider') ) {
+if ( $('.slick-slider').length ) {
     $('.slick-slider').slick({
         infinite: true,
         dots: true,
