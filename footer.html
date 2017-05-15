@@ -54,27 +54,40 @@
                     <div class="large-6 columns code-html">
                         <h3>HTML</h3>
                         <pre>
-&lt;div class=&quot;design-preview design-preview-navigation&quot;&gt;
-    &lt;img src=&quot;images/Logo.svg&quot; alt=&quot;logo&quot;/&gt;
-    &lt;ul class=&quot;menu align-right&quot;&gt;
-        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+&lt;div class=&quot;design-preview design-preview-footer&quot;&gt;
+    &lt;ul class=&quot;menu&quot;&gt;
+        &lt;li&gt;Portfolio&lt;/li&gt;
+        &lt;li&gt;About&lt;/li&gt;
+        &lt;li&gt;Contact&lt;/li&gt;
     &lt;/ul&gt;
+    &lt;div class=&quot;social&quot;&gt;
+        &lt;img src=&quot;images/twitter.svg&quot; alt=&quot;twitter&quot;/&gt;
+        &lt;img src=&quot;images/instagram.svg&quot; alt=&quot;instagram&quot;/&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
                         </pre>
                     </div>
                     <div class="large-6 columns code-css">
                         <h3>CSS</h3>
                         <pre>
-.design-preview-navigation img {
-    width: 200px;
+.design-preview-footer {
+    background-image: linear-gradient(133deg, #480048 0%, #C04848 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.design-preview-navigation a {
+
+.design-preview-footer li {
     text-transform: uppercase;
+    color: white;
     font-weight: 700;
-    color: $purple;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.design-preview-footer img {
+    margin-right: 16px;
 }
                         </pre>
                     </div>
