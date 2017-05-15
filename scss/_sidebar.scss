@@ -29,12 +29,16 @@
     padding: 0;
 }
 
-.main-sidebar a{
+.main-sidebar a {
     padding: 16px;
     display: block;
     border-bottom: 1px solid $grey;
     color: $type;
     position: relative;
+}
+
+a.main-sidebar-link {
+    border-bottom: 0;
 }
 
 .main-sidebar .sub-menu {
