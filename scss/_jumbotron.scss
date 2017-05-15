@@ -1,0 +1,34 @@
+.design-preview-jumbotron {
+    background-image: linear-gradient(133deg, #480048 0%, #C04848 100%);
+}
+
+.design-preview-jumbotron h1 {
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.design-preview-jumbotron h2 {
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    max-width: 75%;
+    margin-bottom: 24px;
+}
+
+.button.jumbotron-hollow {
+    border-radius: 6px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-weight: 500;
+    padding: 16px 32px;
+    border-colour: white;
+}
+
+.button.jumbotron-hollow:hover {
+    background-color: white;
+    color: $purple;
+}
+
+

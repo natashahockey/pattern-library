@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="13px" viewBox="0 0 9 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Left-arrow-pagination</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pagination-/-Numbers-/-Default" transform="translate(-15.000000, -13.000000)" fill="#4A0148">
+            <g id="Pagination-/-Arrow">
+                <g>
+                    <g id="Left-arrow-pagination" transform="translate(19.500000, 20.062500) rotate(-270.000000) translate(-19.500000, -20.062500) translate(13.000000, 16.000000)">
+                        <polygon id="Icons-/-Down-Arrow" points="1.44774906 0.474603512 6.13889006 5.20515889 10.8300156 0.474603512 12.2777769 1.93452382 6.13889006 8.125 0 1.93452382"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
