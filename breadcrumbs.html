@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pattern Library | Buttons</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+</head>
+<body>
+   
+    <div class="row">
+      
+       <aside class="large-3 columns main-sidebar">
+          
+           <img class="logo" src="images/logo.svg" alt="logo">
+           <input class="search" type="search" placeholder="Search..."/>
+           
+           <nav class="desktop-menu">
+               <ul>
+                   <li><a href="navigation.html">Navigation</a></li>
+                   <li>
+                      <a href="buttons.html">Buttons<img class="down-arrow open" src="images/Up-arrow.svg" alt="down arrow"></a>
+                      <ul class="sub-menu">
+                          <li><a href="buttons.html#default">Default Button</a></li>
+                          <li><a href="buttons.html#ghost">Ghost Button</a></li>
+                          <li><a href="buttons.html#icon">Icon Button</a></li>
+                          <li><a href="buttons.html#dropdown">Dropdown Button</a></li>
+                          <li><a href="buttons.html#group">Button Group</a></li>
+                          <li><a href="buttons.html#small">Small Button</a></li>
+                      </ul> 
+                   </li>
+                   <li><a href="">Carousel Header</a></li>
+                   <li><a href="">Jumbotron</a></li>
+                   <li><a href="">Footer</a></li>
+                   <li><a href="">Breadcrumb</a></li>
+                   <li><a href="">Pagination</a></li>
+               </ul>
+           </nav>
+           
+        </aside>
+        
+        <main class="offset-3 large-9 columns main-wrapper">
+            
+            <div class="margin-3" id="default">
+                
+                <div class="margin-2">
+                    <h1 class="margin-2">Breadcrumbs</h1>
+                    <h2 class="margin-1 link"><img src="images/link.svg" alt="link">Default Breacrumbs</h2>
+                    <p>Breadcrumbs should be used to help users navigate to inside pages and back out to high level pages easily. </p> 
+                </div>
+                <div class="design-preview">
+                    <div class="breadcrumb-nav">
+
+                        <nav aria-label="You are here:" role="navigation">
+
+                            <ul class="breadcrumbs">
+
+                                <li><a href="#">Nav Item</a></li>
+                                <li><a href="#">Nav Item</a></li>
+                                <li><a href="#">Nav Item</a></li>
+                                <li>Current Nav Item</li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="code-snippet">
+                    <div class="row">
+                        <div class="large-6 columns code-html">
+                            <h3>HTML</h3>
+                            <pre>
+&lt;div class=&quot;design-preview&quot;&gt;
+    &lt;div class=&quot;breadcrumb-nav&quot;&gt;
+        &lt;nav aria-label=&quot;You are here:&quot; role=&quot;navigation&quot;&gt;
+            &lt;ul class=&quot;breadcrumbs&quot;&gt;
+                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Nav Item&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Nav Item&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Nav Item&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;Current Nav Item&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/nav&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+                            </pre>
+                        </div>
+                        <div class="large-6 columns code-css">
+                            <h3>CSS</h3>
+                            <pre>
+.breadcrumb-nav li {
+    text-transform: none;
+    font-weight: 700;
+    color: $purple;
+}
+
+.breadcrumb-nav a {
+    font-weight: normal;
+    color: $purple;
+}
+
+.breadcrumbs li:not(:last-child)::after {
+    content: url('../images/Right-arrow-breadcrumb.svg');
+}
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+            
+            
+            
+            
+            </div>
+        
+        </main>  
+        
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

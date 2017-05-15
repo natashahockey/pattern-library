@@ -1,0 +1,14 @@
+.breadcrumb-nav li {
+    text-transform: none;
+    font-weight: 700;
+    color: $purple;
+}
+
+.breadcrumb-nav a {
+    font-weight: normal;
+    color: $purple;
+}
+
+.breadcrumbs li:not(:last-child)::after {
+    content: url('../images/Right-arrow-breadcrumb.svg');
+}
