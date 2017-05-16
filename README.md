@@ -5,7 +5,7 @@ The purpose of this pattern library is to showcase and display the components us
 Documentation has also been provided for each component so that its usage and description is known by all developers involved in the project. A single component view has been created so that developers can create a shareable URL to specific components.
 
 
-## Table of Contents
+## Contents
 
   1. [Navigation](#navigation)
   1. [Buttons](#buttons)
@@ -40,96 +40,77 @@ http://natashahockey.github.io/pattern-library/buttons.html
 
 A defaul button can be used for a generic call to action. This could be linking to another page within the website.
 
+https://natashahockey.github.io/pattern-library/buttons.html#default
+
 ### Ghost Button
 
 A ghost button can be paired with a default button if there are two actions that could take place in an instance. The ghost and default buttons are the same size they are just styled differently.
 
+https://natashahockey.github.io/pattern-library/buttons.html#ghost
 
 ### Icon Button
 
 An icon button can be used to help users understand the action they are about to take. An example would be a download icon paired with the word download. It helps users understand what is going to happen as a result of clicking the button.
 
-
+https://natashahockey.github.io/pattern-library/buttons.html#icon
 
 ### Dropdown Button
 
 A dropdown button can be used when the user has the option to select from 1 or more items in a list. This is a good way of keeping content organised.
+
+https://natashahockey.github.io/pattern-library/buttons.html#dropdown
   
 ### Button Group
 
+A button group can be used when buttons need pairing together. This could be because they are similar in action or content.
 
+https://natashahockey.github.io/pattern-library/buttons.html#group
 
 ### Small Button
 
-*Description goes here*
+A small button has been created for the use of a button in a smaller design area.
 
-<div>
-    Code goes here to display actual element
-</div>
-<br />
-
-    <div>
-        My code goes here
-    </div>
+https://natashahockey.github.io/pattern-library/buttons.html#small
   
 **[⬆ back to top](#table-of-contents)**
 
 ## Header Element
 
-*Description goes here*
+A carousel can be used when wanting to display more than 1 image in a slideshow format. Ideally this would be used as a hero or large content section of a web page.
 
-<div>
-    Code goes here to display actual element
-</div>
-<br />
-
-    <div>
-        My code goes here
-    </div>
+https://natashahockey.github.io/pattern-library/carousel.html
 
 **[⬆ back to top](#table-of-contents)**
 
 ## Jumbotron
 
-*Description goes here*
+A jumbotron holds a title, sub title and button. This can be used as the hero section of a web page. More or less content can be added here and the use of default button and ghost button could be included.
 
-<div>
-    Code goes here to display actual element
-</div>
-<br />
+https://natashahockey.github.io/pattern-library/jumbotron.html
 
-    <div>
-        My code goes here
-    </div>
-  
+
 **[⬆ back to top](#table-of-contents)**
 
 ## Footer
 
-*Description goes here*
+The footer acts as a secondary nav for a website and can be used as a site map. Social media links have been included.
 
-<div>
-    Code goes here to display actual element
-</div>
-<br />
-
-    <div>
-        My code goes here
-    </div>
+https://natashahockey.github.io/pattern-library/footer.html
   
 **[⬆ back to top](#table-of-contents)**
 
-## Other Component
+## Breadcrumb
 
-*Description goes here*
+Breadcrumb navigation can be used on the inside pages of a website. It will allow users to be able to navigate back our to higher level pages easily.
 
-<div>
-    Code goes here to display actual element
-</div>
-<br />
+https://natashahockey.github.io/pattern-library/breadcrumbs.html
+  
+**[⬆ back to top](#table-of-contents)**
 
-    <div>
-        My code goes here
-    </div>
+## Pagination
+
+Pagination can be used where there are more than 1 pages of similar content. An example would be in a list of blog posts.
+
+https://natashahockey.github.io/pattern-library/pagination.html
   
 **[⬆ back to top](#table-of-contents)**
