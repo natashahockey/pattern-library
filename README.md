@@ -26,20 +26,6 @@ Documentation has also been provided for each component so that its usage and de
 
 The navigation component holds the main nav items required for navigation a website. The number of nav items can be increased / decreased depending on the website. This allows for flexibility and scalability.
 
-<div class="design-preview design-preview-navigation">
-                <img src="images/Logo.svg" alt="logo"/>
-                    <ul class="menu align-right">
-                        <li><a href="">Twitter</a></li>
-                        <li><a href="">Portfolio</a></li>
-                        <li><a href="">About</a></li>
-                    </ul>
-            </div>
-<br />
-
-    <div>
-        My code goes here
-    </div>
-
 **[⬆ back to top](#table-of-contents)**
 
 ## Buttons
