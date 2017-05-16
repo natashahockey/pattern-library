@@ -22,7 +22,7 @@ Documentation has also been provided for each component so that its usage and de
   1. [Pagination](#pagination)
 
 
-## Navigation
+## Navigation http://natashahockey.github.io/pattern-library/navigation.html
 
 The navigation component holds the main nav items required for navigation a website. The number of nav items can be increased / decreased depending on the website. This allows for flexibility and scalability.
 
@@ -30,72 +30,30 @@ The navigation component holds the main nav items required for navigation a webs
 
 ## Buttons
 
-*Description goes here*
+Buttons can be used for a variety of different actions and they can be styled differently depending on the action. This pattern library holds 6 different button types.
 
 ### Default Button
 
-*Description goes here*
-
-<div>
-    Code goes here to display actual element
-</div>
-<br />
-
-    <div>
-        My code goes here
-    </div>
+A defaul button can be used for a generic call to action. This could be linking to another page within the website.
 
 ### Ghost Button
 
-*Description goes here*
+A ghost button can be paired with a default button if there are two actions that could take place in an instance. The ghost and default buttons are the same size they are just styled differently.
 
-<div>
-    Code goes here to display actual element
-</div>
-<br />
-
-    <div>
-        My code goes here
-    </div>
 
 ### Icon Button
 
-*Description goes here*
+An icon button can be used to help users understand the action they are about to take. An example would be a download icon paired with the word download. It helps users understand what is going to happen as a result of clicking the button.
 
-<div>
-    Code goes here to display actual element
-</div>
-<br />
 
-    <div>
-        My code goes here
-    </div>
 
 ### Dropdown Button
 
-*Description goes here*
-
-<div>
-    Code goes here to display actual element
-</div>
-<br />
-
-    <div>
-        My code goes here
-    </div>
+A dropdown button can be used when the user has the option to select from 1 or more items in a list. This is a good way of keeping content organised.
   
 ### Button Group
 
-*Description goes here*
 
-<div>
-    Code goes here to display actual element
-</div>
-<br />
-
-    <div>
-        My code goes here
-    </div>
 
 ### Small Button
 
