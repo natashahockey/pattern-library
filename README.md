@@ -22,7 +22,7 @@ Documentation has also been provided for each component so that its usage and de
   1. [Pagination](#pagination)
 
 
-## Navigation
+## Navigation [here](natashahockey.github.io/pattern-library/navigation.html)
 
 The navigation component holds the main nav items required for navigation a website. The number of nav items can be increased / decreased depending on the website. This allows for flexibility and scalability.
 
