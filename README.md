@@ -22,15 +22,19 @@ Documentation has also been provided for each component so that its usage and de
   1. [Pagination](#pagination)
 
 
-## Navigation http://natashahockey.github.io/pattern-library/navigation.html
+## Navigation
 
 The navigation component holds the main nav items required for navigation a website. The number of nav items can be increased / decreased depending on the website. This allows for flexibility and scalability.
+
+http://natashahockey.github.io/pattern-library/navigation.html
 
 **[⬆ back to top](#table-of-contents)**
 
 ## Buttons
 
 Buttons can be used for a variety of different actions and they can be styled differently depending on the action. This pattern library holds 6 different button types.
+
+http://natashahockey.github.io/pattern-library/buttons.html
 
 ### Default Button
 
