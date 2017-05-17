@@ -5,7 +5,7 @@ The purpose of this pattern library is to showcase and display the components us
 Documentation has also been provided for each component so that its usage and description is known by all developers involved in the project. A single component view has been created so that developers can create a shareable URL to specific components.
 
 
-## Contents
+## Table Of Contents
 
   1. [Navigation](#navigation)
   1. [Buttons](#buttons)
