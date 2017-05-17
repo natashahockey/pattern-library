@@ -11,11 +11,9 @@
     <div class="row">
       
        <aside class="large-3 columns main-sidebar">
-          
            <a class="main-sidebar-link" href="index.html"><img class="logo" src="images/Logo.svg" alt="logo"></a>
-           <input class="search" type="search" placeholder="Search..."/>
-           
-           <nav class="desktop-menu">
+           <input class="search" type="search" id="search" onkeyup="searchFunction()" placeholder="Search..."/>
+           <nav class="desktop-menu" id="nav">
                <ul>
                    <li><a href="navigation.html">Navigation</a></li>
                    <li>
@@ -36,7 +34,6 @@
                    <li><a href="pagination.html">Pagination</a></li>
                </ul>
            </nav>
-           
         </aside>
         
         <main class="offset-3 large-9 columns main-wrapper">

@@ -1,7 +1,8 @@
 //overwrite foundation fonts
-* {
-    font-family: "Open Sans" !important;
+h1, h2, h3, p, li, span, a {
+    font-family: "Open Sans";
 }
+
 body {
     font-family: 'open sans';
     color: $type;
