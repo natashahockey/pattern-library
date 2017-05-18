@@ -1,8 +1,8 @@
 # My Pattern Library
 
-The purpose of this pattern library is to showcase and display the components used in a portfolio website. These components have been browser tested and performance checked in order to make the code base as high quality as possible.
+The purpose of this pattern library is to showcase and display the components used in a portfolio website. These components have been browser tested and performance checked in order to make the code base as high quality as possible. Documentation has also been provided for each component so that its usage and description is known by all developers involved in the project. 
 
-Documentation has also been provided for each component so that its usage and description is known by all developers involved in the project. A single component view has been created so that developers can create a shareable URL to specific components.
+A single component view has been created so that developers can create a shareable URL to specific components. This view allows the component to stretch to the size of the browser window. Whilst this is a standard feature of a pattern library, this has been clarifed to avoid confusing when viewing components this way. 
 
 
 ## Table Of Contents
